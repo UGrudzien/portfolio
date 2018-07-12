@@ -1,0 +1,12 @@
+  @mixin btn($color:$button-font-color, $background-color: $button-bg-color, $font-size:22px, $border-color:#f9b1f2){
+    color: $color;
+    background-color: $background-color;
+    font-size: $font-size;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:$border-color;
+    text-align: center;
+    &:hover{transform: scale(1.2)}
+
+
+  }

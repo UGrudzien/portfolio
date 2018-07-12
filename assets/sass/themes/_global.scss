@@ -1,0 +1,14 @@
+@import "variables";
+
+body {
+  background-color : $body-bg-color;
+  margin: 0px;
+  font-family: $font;
+  }
+  .colors{
+    color:white;
+    text-decoration: none;
+    :visited{
+     color:grey;
+    }
+  }

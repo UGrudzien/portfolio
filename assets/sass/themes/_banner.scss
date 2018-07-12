@@ -1,0 +1,45 @@
+@import "global";
+.banner {
+    /*background-color: red;*/
+    width: 100%;
+    position: relative;
+    &__mainBanner {
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+    }
+    &__myFrame {
+        position: absolute;
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        border-width: 1em;
+        border-radius: 2%;
+        top: 9%;
+        left: 5%;
+        width: 415px;
+        height: 615px;
+        z-index: 2;
+    }
+    &__myFoto {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+      
+    }
+    &__headline{
+        position: absolute;
+        float: left;
+        bottom: 2%;
+        font-size: 2em;
+       
+        color: white;
+        &__email{
+          /*.colors;*/
+        }
+        &__tel{
+            color:white;
+        }
+    }
+}
+    

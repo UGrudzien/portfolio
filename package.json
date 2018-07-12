@@ -1,0 +1,47 @@
+{
+  "name": "html5-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple HTML5 Sass Boilerplate",
+  "private": true,
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "bundle": "gulp bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmranAhmed/html5-sass-boilerplate"
+  },
+  "keywords": [],
+  "author": "Emran Ahmed",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/EmranAhmed/html5-sass-boilerplate/issues/"
+  },
+  "homepage": "https://github.com/EmranAhmed/html5-sass-boilerplate/",
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-build": "^0.5.3",
+    "gulp-clean": "^0.4.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inline-style": "^0.1.1",
+    "gulp-install": "^1.1.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-processhtml": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglifycss": "^1.0.9",
+    "normalize-scss": "^7.0.1"
+  }
+}
